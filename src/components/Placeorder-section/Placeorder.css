@@ -1,0 +1,48 @@
+.Placeorder__parent {
+  border-top: 1px solid lightgray;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.home__sales__product {
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.home__sales__product p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  text-align: center;
+}
+
+.order__btn {
+  border: none;
+  width: 158px;
+  height: 30px;
+  top: 57px;
+  margin-right: 1.5rem;
+  background-color: #5d5fef;
+  color: white;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.order__btn:hover {
+  background-color: #000;
+  columns: #fff;
+  cursor: pointer;
+}

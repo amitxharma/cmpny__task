@@ -1,0 +1,69 @@
+/* Navbar left side */
+.navbar__parent {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left__side {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.search .input__field {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding-left: 2rem;
+  height: 35px;
+  width: 450px;
+  outline: none;
+}
+
+/* Navbar right side */
+.right__side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 1rem;
+}
+
+.right__side .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.right__side .user {
+  border-left: 2px solid black;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: poppins;
+}
+
+.user .name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #23235f;
+}
+.user p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
