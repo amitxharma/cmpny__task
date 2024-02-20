@@ -20,7 +20,7 @@
 }
 
 .item__1 {
-  width: 4%;
+  width: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -36,11 +36,11 @@
 }
 
 .item__2 {
-  width: 75%;
+  width: 75rem;
   /* background-color: #f3f4f9; */
 }
 .item__3 {
-  width: 21%;
+  width: 21rem;
   /* background-color: lightcoral; */
 }
 
@@ -440,8 +440,8 @@
 }
 .upper__content {
   padding: 4px;
-  width: 260px;
-  height: 46px;
+  width: 12rem;
+  height: 3rem;
   background-color: #edeef1;
   margin-top: 1rem;
   display: flex;
@@ -470,6 +470,16 @@
   display: flex;
   justify-content: space-between;
 }
+/* 
+._item_3_middle {
+  width: 12rem;
+  height: 3rem;
+}
+._item_3_middle_row_2 {
+  width: 12rem;
+  height: 3rem;
+  margin-right: 2rem;
+} */
 
 ._item_3_middle_row_3 {
   font-size: 12px;
